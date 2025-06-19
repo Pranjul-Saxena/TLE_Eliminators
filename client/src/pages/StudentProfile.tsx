@@ -364,7 +364,7 @@ const StudentProfile = () => {
                     onClick={() => setProblemFilter("7")}
                     className={
                       problemFilter === "7"
-                        ? "bg-emerald-500 hover:bg-emerald-600"
+                        ? "bg-emerald-500 hover:bg-emerald-400"
                         : ""
                     }
                   >
@@ -388,7 +388,7 @@ const StudentProfile = () => {
                     onClick={() => setProblemFilter("90")}
                     className={
                       problemFilter === "90"
-                        ? "bg-emerald-500 hover:bg-emerald-600"
+                        ? "bg-emerald-500 hover:bg-emerald-800"
                         : ""
                     }
                   >
